@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+a{
+    font-family: "Jost",sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    color: #292F36;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+}
+.active{
+    color: #C76904;
+    transform: scale(1.1);
+}
+h1, h2{
+    font-family: "DM Serif Display", serif;
+}
+p{
+    font-family:"Jost",
+        sans-serif ;
+}
+button{
+    background-color: #CDA274;
+    transition-duration: 0.2s;
+}
+
+button:hover{
+    transform: scale(1.1);
+    background-color: #cda274ad;
+}
+
+.Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    padding-bottom: 50px;
+    cursor: pointer;
+}
+
+.Card:hover {
+    color: #C76904;
+   transform: scale(1.1);
+    border-radius: 20px;
+}
+
+li{
+    list-style: none;
+    padding: 26px 46px;
+    transition-duration: 0.2s;
+    transition-timing-function: linear;
+    border-radius: 23px;
+}
+li:hover{
+    background-color: #CDA274;
+    color: white;
+}
